@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	position: relative;
+}
+
+html,
+body,
+.container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.container {
+	position: absolute;
+}
+
+.container canvas {
+	z-index: -1;
+	background: hsl(220, 40%, 27%);
+	background: radial-gradient(circle farthest-side, hsl(220, 40%, 27%), hsl(240, 35%, 18%));
+	width: 100%;
+	height: 100%;
+}

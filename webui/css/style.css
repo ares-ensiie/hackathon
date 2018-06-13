@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+  background-image: url("/images/bg.png");
+  background-size: cover;
+  color: #1F9D99;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.panel {
+  border: 0.1px solid  rgba(31,157,153,0.5);
+  display: flex;
+  flex-direction: column;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(31,157,153,0.12),
+    rgba(31,157,153,0.12) 10px,
+    rgba(31,157,153,0.1) 10px,
+    rgba(31,157,153,0.1) 20px
+  );
+  background-color: rgba(31,157,153,0.1);
+  box-shadow: 0 0 10px rgba(31,157,153,0.2);
+  -webkit-clip-path: polygon(0 0, 75% 0, 80% 20px, 100% 20px, 100% 100%, 0% 100%);
+}
+
+.h70 {
+  height: 70vh;
+}
+
+.h20 {
+  height: 20vh;
+}
+
+.w35 {
+  width: 35%;
+}
+
+.w5 {
+  width: 5%;
+}
+
+.mt10v {
+  margin-top: 2vh;
+}
+
+.row-content{
+  flex: 1;
+}
+
+.row-header {
+  flex: 0;
+}
+
+.map-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid rgba(31,157,153,0.5);
+  font-size: 2rem;
+  background-color: rgba(0,0,0,.5);
+}
+
+.content {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(0,0,0,.7);
+}
+
+.content{
+  padding-top: 5px;
+  color: white;
+  font-size: 1.25rem;
+  overflow-y: scroll;
+}
+
+#errors .content {
+  color: red;
+}
