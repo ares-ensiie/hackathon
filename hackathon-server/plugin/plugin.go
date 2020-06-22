@@ -6,7 +6,7 @@ import (
 	"git.ares-ensiie.eu/hackathon/hackathon-server/event"
 	"git.ares-ensiie.eu/hackathon/hackathon-server/field"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 var plugins []Plugin

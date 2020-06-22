@@ -9,8 +9,8 @@ import (
 	"git.ares-ensiie.eu/hackathon/hackathon-server/field"
 	"git.ares-ensiie.eu/hackathon/hackathon-server/game"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/googollee/go-socket.io"
+	socketio "github.com/googollee/go-socket.io"
+	log "github.com/sirupsen/logrus"
 )
 
 // Viewer represent the spectator server.

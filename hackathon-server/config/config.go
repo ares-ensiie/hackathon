@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/x-cray/logrus-prefixed-formatter"
+	log "github.com/sirupsen/logrus"
+	prefixed "github.com/x-cray/logrus-prefixed-formatter"
 )
 
 var (

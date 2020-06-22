@@ -8,7 +8,7 @@ import (
 	"git.ares-ensiie.eu/hackathon/hackathon-server/player"
 	"git.ares-ensiie.eu/hackathon/hackathon-server/plugin"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 type Client struct {

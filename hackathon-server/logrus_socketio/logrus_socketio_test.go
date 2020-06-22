@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/Sirupsen/logrus"
-	"github.com/googollee/go-socket.io"
+	socketio "github.com/googollee/go-socket.io"
+	"github.com/sirupsen/logrus"
 )
 
 func TestPrint(t *testing.T) {

@@ -1,8 +1,8 @@
 package logrus_socketio
 
 import (
-	"github.com/Sirupsen/logrus"
-	"github.com/zhouhui8915/go-socket.io-client"
+	"github.com/sirupsen/logrus"
+	socketio_client "github.com/zhouhui8915/go-socket.io-client"
 )
 
 type SocketIOHook struct {

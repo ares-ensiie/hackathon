@@ -11,7 +11,7 @@ import (
 	"git.ares-ensiie.eu/hackathon/hackathon-server/plugin"
 	"git.ares-ensiie.eu/hackathon/hackathon-server/viewer"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 func Start() {
